@@ -1,4 +1,3 @@
-[{"name":"s_tucson","search":"Hyundai Tucson NX5","limit":15},
- {"name":"s_tucson2","search":"2027 Hyundai Tucson","limit":15},
- {"name":"s_gv80","search":"Genesis GV80 facelift","limit":15},
- {"name":"s_roadster","search":"Tesla Roadster 2026 unveiling","limit":10}]
+[{"name":"tucson_nx5","title":"Hyundai Tucson 2027 N-Line.jpg","width":2400},
+ {"name":"gv80_fl","title":"Genesis GV80 facelift 001.jpg","width":2400},
+ {"name":"s_roadster","search":"Tesla Roadster prototype","limit":20,"min_width":1500}]

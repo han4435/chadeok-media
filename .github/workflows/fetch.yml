@@ -1,0 +1,28 @@
+name: fetch-photos
+# Downloads openly licensed photos (Wikimedia Commons) listed in fetch/requests.json
+# and publishes them, with license metadata, to the single-commit "inbox" branch.
+on:
+  push:
+    branches: [main]
+    paths: ["fetch/requests.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: fetch-photos
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download photos
+        run: python3 fetch/fetch.py fetch/requests.json out
+      - name: Publish to inbox branch (single commit, replaces previous)
+        run: |
+          cd out
+          git init -q -b inbox
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "inbox ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" inbox

@@ -159,6 +159,39 @@
   "files": []
  },
  {
+  "id": "2026-10-20-12",
+  "date": "2026-10-20",
+  "slot": "12",
+  "approved": "false",
+  "caption": "이번 주 자동차 뉴스 3줄 요약 📰\n\n01 테슬라 로드스터 9년 만에 공개 — 10/15(현지) 공개, 생산은 2028년 계획(머스크 발언), 퍼포먼스 트림 예약금 5만 달러\n02 현대 신형 투싼 6년 만의 풀체인지 — 1.6 터보 가솔린·하이브리드(시스템 245마력, 복합 17.4km/L), 21일 계약 시작 예정(보도)\n03 제네시스 GV80 하이브리드 — 10/6 판매 시작, 7,680만원부터(개소세 5% 기준), 시스템 352마력\n\n셋 중 가장 끌리는 소식은? 댓글로 01·02·03 👇\n매주 화요일 뉴스 요약, 팔로우하고 받아보세요.\n\n출처: TechCrunch(10/15), 글로벌이코노믹(10/16), 머니투데이(10/6)\n📷 Wikimedia Commons — 로드스터(2017년 시제품): Smnt, CC BY-SA 4.0 / 투싼 N라인: Bagstar1990, CC BY 4.0 / GV80 부분변경(번호판 블러): JustAnotherCarDesigner, CC0\n\n#차덕일보 #자동차뉴스 #신형투싼 #투싼풀체인지 #GV80하이브리드 #제네시스 #테슬라로드스터 #신차 #차스타그램 #자동차정보",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-20-12/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-20-12/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-20-12/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-20-12/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-20-12/5.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-20-12/6.jpg"
+   }
+  ]
+ },
+ {
   "id": "2026-10-20-18",
   "date": "2026-10-20",
   "slot": "18",

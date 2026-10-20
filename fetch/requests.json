@@ -1,2 +1,4 @@
-[{"name":"n_shop","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000144368","max_files":12,"min_width":800},
- {"name":"n_garage","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000147243","max_files":12,"min_width":800}]
+[{"name":"npx1","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000129944","max_files":12,"min_width":1200},
+ {"name":"s_i5n","search":"Hyundai Ioniq 5 N","limit":20,"min_width":2000},
+ {"name":"s_npx1","search":"Hyundai NPX1","limit":10,"min_width":1500},
+ {"name":"s_wheel","search":"forged wheel aftermarket car","limit":8,"min_width":1500}]

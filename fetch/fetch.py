@@ -7,10 +7,12 @@ Only files whose license is CC BY / CC BY-SA / CC0 / Public domain are saved."""
 import json, sys, os, re, time, urllib.request, urllib.parse
 req, out = sys.argv[1], sys.argv[2]
 os.makedirs(out, exist_ok=True)
-UA = {"User-Agent": "chadeok-media-fetch/1.0 (github.com/han4435/chadeok-media)"}
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 chadeok-media-fetch/1.0"}
 OK = re.compile(r"^(CC BY(-SA)? [0-9.]+|CC0|Public domain|PD.*)$", re.I)
-def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+def get(url, referer=None):
+    h = dict(UA)
+    if referer: h["Referer"] = referer
+    with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=120) as r:
         return r.read()
 meta = {}
 def search(item):
@@ -40,7 +42,7 @@ def fetch_url(item):
     images are resized to max 2400px wide and saved as <name>_NN.jpg (first max_files)."""
     import io, zipfile
     from PIL import Image
-    data = get(item["url"])
+    data = get(item["url"], item.get("referer"))
     files = []
     def save(buf, label):
         n = len(files) + 1
@@ -59,7 +61,8 @@ def fetch_url(item):
                 save(z.read(zi), zi.filename)
     else:
         save(data, item["url"].split("/")[-1][:80])
-    return {"url": item["url"], "usage": item.get("usage", "press/editorial only"), "bytes": len(data), "files": files}
+    head = "" if files else data[:400].decode("utf-8", "replace")
+    return {"head_if_no_images": head, "url": item["url"], "usage": item.get("usage", "press/editorial only"), "bytes": len(data), "files": files}
 for item in json.load(open(req)):
     if "url" in item:
         try: meta[item["name"]] = fetch_url(item)

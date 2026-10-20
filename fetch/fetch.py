@@ -63,7 +63,36 @@ def fetch_url(item):
         save(data, item["url"].split("/")[-1][:80])
     head = "" if files else data[:400].decode("utf-8", "replace")
     return {"head_if_no_images": head, "url": item["url"], "usage": item.get("usage", "press/editorial only"), "bytes": len(data), "files": files}
+def fetch_page(item):
+    """Collect image URLs from a press-release page (og:image + <img> tags) and download them."""
+    import io
+    from PIL import Image
+    base = item["page"]; html = get(base).decode("utf-8", "replace")
+    cands = re.findall(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', html)
+    cands += re.findall(r'(?:src|data-src|href)=["\']([^"\']+\.(?:jpe?g|png|webp)(?:\?[^"\']*)?)["\']', html, re.I)
+    seen, urls = set(), []
+    for u in cands:
+        u = urllib.parse.urljoin(base, u.replace("&amp;", "&"))
+        if u in seen or re.search(item.get("skip", r"logo|icon|sprite|favicon|btn_|thumb_s"), u, re.I): continue
+        seen.add(u); urls.append(u)
+    files = []
+    for u in urls:
+        if len(files) >= item.get("max_files", 12): break
+        try:
+            im = Image.open(io.BytesIO(get(u, base))).convert("RGB")
+        except Exception:
+            continue
+        if im.width < item.get("min_width", 1000): continue
+        if im.width > 2400: im = im.resize((2400, round(im.height * 2400 / im.width)))
+        fn = f"{item['name']}_{len(files)+1:02d}.jpg"; im.save(os.path.join(out, fn), quality=90)
+        files.append({"file": fn, "src": u, "size": f"{im.width}x{im.height}"})
+        time.sleep(0.3)
+    return {"page": base, "candidates": len(urls), "files": files, "first_urls": urls[:15]}
 for item in json.load(open(req)):
+    if "page" in item:
+        try: meta[item["name"]] = fetch_page(item)
+        except Exception as e: meta[item["name"]] = {"page": item["page"], "error": str(e)}
+        continue
     if "url" in item:
         try: meta[item["name"]] = fetch_url(item)
         except Exception as e: meta[item["name"]] = {"url": item["url"], "error": str(e)}

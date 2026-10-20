@@ -1,5 +1,6 @@
 """Fetch Wikimedia Commons files listed in a JSON request file.
 Request format: [{"name": "gv80", "title": "File name.jpg", "width": 2400}, {"name": "s_tucson", "search": "Hyundai Tucson 2027"}, ...]
+URL items ({"name","url","max_files"}) download manufacturer press files (ZIP unpacked) for editorial news use.
 Search items save 480px previews <name>_NN.jpg of allowed-license results.
 Writes <out>/<name>.jpg and <out>/meta.json (license, author, source page) for each.
 Only files whose license is CC BY / CC BY-SA / CC0 / Public domain are saved."""
@@ -34,7 +35,36 @@ def search(item):
                     "date": re.sub(r"<[^>]+>", "", em.get("DateTimeOriginal", {}).get("value", ""))[:10],
                     "size": f"{ii.get('width')}x{ii.get('height')}"})
     return res
+def fetch_url(item):
+    """Download a file from a manufacturer press site (editorial use). ZIPs are unpacked;
+    images are resized to max 2400px wide and saved as <name>_NN.jpg (first max_files)."""
+    import io, zipfile
+    from PIL import Image
+    data = get(item["url"])
+    files = []
+    def save(buf, label):
+        n = len(files) + 1
+        if n > item.get("max_files", 40): return
+        try:
+            im = Image.open(io.BytesIO(buf)).convert("RGB")
+        except Exception:
+            return
+        if im.width > 2400: im = im.resize((2400, round(im.height * 2400 / im.width)))
+        fn = f"{item['name']}_{n:02d}.jpg"; im.save(os.path.join(out, fn), quality=90)
+        files.append({"file": fn, "source_name": label, "size": f"{im.width}x{im.height}"})
+    if data[:2] == b"PK":
+        z = zipfile.ZipFile(io.BytesIO(data))
+        for zi in sorted(z.infolist(), key=lambda x: x.filename):
+            if re.search(r"\.(jpe?g|png|webp)$", zi.filename, re.I) and not zi.filename.startswith("__MACOSX"):
+                save(z.read(zi), zi.filename)
+    else:
+        save(data, item["url"].split("/")[-1][:80])
+    return {"url": item["url"], "usage": item.get("usage", "press/editorial only"), "bytes": len(data), "files": files}
 for item in json.load(open(req)):
+    if "url" in item:
+        try: meta[item["name"]] = fetch_url(item)
+        except Exception as e: meta[item["name"]] = {"url": item["url"], "error": str(e)}
+        continue
     if "search" in item:
         try: meta[item["name"]] = {"search": item["search"], "results": search(item)}
         except Exception as e: meta[item["name"]] = {"search": item["search"], "error": str(e)}

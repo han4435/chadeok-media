@@ -12,9 +12,11 @@ concurrency: fetch-photos
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: pip install --quiet pillow
       - name: Download photos
         run: python3 fetch/fetch.py fetch/requests.json out
       - name: Publish to inbox branch (single commit, replaces previous)

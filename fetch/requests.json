@@ -1,5 +1,3 @@
-[{"name":"l4","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-kia-level-4-autonomous-heavy-truck-demonstration","max_files":6,"min_width":1200},
- {"name":"s_xcient","search":"Hyundai Xcient Fuel Cell","limit":12,"min_width":1800},
- {"name":"sor1","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000105082","max_files":8,"min_width":1200},
- {"name":"sor2","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000102538","max_files":8,"min_width":1200},
- {"name":"seltos","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000200712","max_files":10,"min_width":1200}]
+[{"name":"tuc","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-all-new-tucson-debut","max_files":6,"min_width":1200},
+ {"name":"xcient","title":"Hyundai Xcient Fuel Cell IAA Transportation 2024 (DSC03855).jpg","width":2600},
+ {"name":"xcient2","title":"Hyundai Xcient Fuel Cell.jpg","width":2600}]

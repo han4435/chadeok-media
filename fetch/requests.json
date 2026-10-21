@@ -1,2 +1,5 @@
-[{"name":"hmg_list","links":"https://www.hyundaimotorgroup.com/ko/news/newsMain","match":"/ko/news/","limit":60},
- {"name":"hmg_list2","links":"https://www.hyundaimotorgroup.com/ko/news","match":"/ko/news/","limit":60}]
+[{"name":"l4","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-kia-level-4-autonomous-heavy-truck-demonstration","max_files":6,"min_width":1200},
+ {"name":"s_xcient","search":"Hyundai Xcient Fuel Cell","limit":12,"min_width":1800},
+ {"name":"sor1","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000105082","max_files":8,"min_width":1200},
+ {"name":"sor2","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000102538","max_files":8,"min_width":1200},
+ {"name":"seltos","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000200712","max_files":10,"min_width":1200}]

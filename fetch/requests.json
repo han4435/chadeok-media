@@ -1,1 +1,2 @@
-[{"name":"o_seltos","title":"Алматы, Kia Seltos на Ауэзова-Тимирязева.jpg","width":2400}]
+[{"name":"hmg_list","links":"https://www.hyundaimotorgroup.com/ko/news/newsMain","match":"/ko/news/","limit":60},
+ {"name":"hmg_list2","links":"https://www.hyundaimotorgroup.com/ko/news","match":"/ko/news/","limit":60}]

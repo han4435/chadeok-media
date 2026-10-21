@@ -88,7 +88,22 @@ def fetch_page(item):
         files.append({"file": fn, "src": u, "size": f"{im.width}x{im.height}"})
         time.sleep(0.3)
     return {"page": base, "candidates": len(urls), "files": files, "first_urls": urls[:15]}
+def fetch_links(item):
+    """List article links (href + text) on a listing page, optionally filtered by regex."""
+    html = get(item["links"]).decode("utf-8", "replace")
+    out_l, seen = [], set()
+    for href, txt in re.findall(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.S | re.I):
+        t = re.sub(r"<[^>]+>", " ", txt); t = re.sub(r"\s+", " ", t).strip()
+        u = urllib.parse.urljoin(item["links"], href)
+        if not t or u in seen or not re.search(item.get("match", "."), u): continue
+        seen.add(u); out_l.append({"url": u, "text": t[:160]})
+    dates = re.findall(r"20\d\d[.\-]\d{2}[.\-]\d{2}", html)[:60]
+    return {"links": out_l[:item.get("limit", 60)], "dates_seen": dates}
 for item in json.load(open(req)):
+    if "links" in item:
+        try: meta[item["name"]] = fetch_links(item)
+        except Exception as e: meta[item["name"]] = {"links_page": item["links"], "error": str(e)}
+        continue
     if "page" in item:
         try: meta[item["name"]] = fetch_page(item)
         except Exception as e: meta[item["name"]] = {"page": item["page"], "error": str(e)}

@@ -1,4 +1,5 @@
-[{"name":"npx1_rear","title":"Hyundai IONIQ 5 N NPX1 Concept (5).jpg","width":2600},
- {"name":"npx1_front","title":"Hyundai IONIQ 5 N NPX1 Concept (3).jpg","width":2600},
- {"name":"npx1_wing","title":"Hyundai IONIQ 5 N NPX1 Concept (7).jpg","width":2600},
- {"name":"i5n","title":"Hyundai Ioniq 5 N DSC 2848.jpg","width":2600}]
+[{"name":"seltos","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000200712","max_files":8,"min_width":1200},
+ {"name":"grandeur","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-the-new-grandeur","max_files":8,"min_width":1200},
+ {"name":"avante","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-all-new-avante","max_files":8,"min_width":1200},
+ {"name":"gv80h","page":"https://www.hyundaimotorgroup.com/ko/news/genesis-gv80-hybrid-launch","max_files":8,"min_width":1200},
+ {"name":"tucson","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-all-new-tucson","max_files":8,"min_width":1200}]

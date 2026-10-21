@@ -1,1 +1,5 @@
-[{"name":"tucson","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-all-new-tucson-debut","max_files":6,"min_width":1200}]
+[{"name":"o_seltos","search":"Kia Seltos SP2 facelift Korea","limit":12,"min_width":1800},
+ {"name":"o_gn7","title":"00 Hyundai Grandeur (GN7).jpg","width":2400},
+ {"name":"o_avante","search":"Hyundai Avante CN7 facelift","limit":12,"min_width":1800},
+ {"name":"o_gv80","search":"Genesis GV80 JX1 2020","limit":12,"min_width":1800},
+ {"name":"o_tucson","search":"Hyundai Tucson NX4 facelift","limit":12,"min_width":1800}]

@@ -1,3 +1,8 @@
-[{"name":"tuc","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-all-new-tucson-debut","max_files":6,"min_width":1200},
- {"name":"xcient","title":"Hyundai Xcient Fuel Cell IAA Transportation 2024 (DSC03855).jpg","width":2600},
- {"name":"xcient2","title":"Hyundai Xcient Fuel Cell.jpg","width":2600}]
+[{"name":"news","links":"https://www.hyundaimotorgroup.com/ko/news","match":"/ko/news/","limit":60},
+ {"name":"news2","links":"https://www.hyundaimotorgroup.com/ko/news/list","match":"/ko/news/","limit":60},
+ {"name":"s_f80","search":"Ferrari F80","limit":25},
+ {"name":"s_w1","search":"McLaren W1","limit":25},
+ {"name":"s_rev","search":"Lamborghini Revuelto","limit":25},
+ {"name":"s_nev","search":"Rimac Nevera","limit":25},
+ {"name":"s_911t","search":"Porsche 911 Turbo S 992.2","limit":25},
+ {"name":"s_849","search":"Ferrari 849 Testarossa","limit":20}]

@@ -1,8 +1,9 @@
-[{"name":"news","links":"https://www.hyundaimotorgroup.com/ko/news","match":"/ko/news/","limit":60},
- {"name":"news2","links":"https://www.hyundaimotorgroup.com/ko/news/list","match":"/ko/news/","limit":60},
- {"name":"s_f80","search":"Ferrari F80","limit":25},
- {"name":"s_w1","search":"McLaren W1","limit":25},
- {"name":"s_rev","search":"Lamborghini Revuelto","limit":25},
- {"name":"s_nev","search":"Rimac Nevera","limit":25},
- {"name":"s_911t","search":"Porsche 911 Turbo S 992.2","limit":25},
- {"name":"s_849","search":"Ferrari 849 Testarossa","limit":20}]
+[{"name":"f80","title":"2025 Ferrari F80.jpg","width":2400},
+ {"name":"f80b","title":"2025 Ferrari F80 1.jpg","width":2400},
+ {"name":"w1","title":"2024 McLaren W1 SP25.jpg","width":2400},
+ {"name":"rev","title":"Lamborghini Revuelto 001.jpg","width":2400},
+ {"name":"nevr","title":"Rimac Nevera R Auto Zuerich 2024 DSC 6340.jpg","width":2400},
+ {"name":"t911","title":"2025 Porsche 992 Turbo S coupes IAA 2025 DSC 1835.jpg","width":2400},
+ {"name":"t849","title":"2026 Ferrari 849 Testarossa Assetto Fiorano in Blu Corsa.jpg","width":2400},
+ {"name":"nl","links":"https://www.hyundaimotorgroup.com/ko/news/press","match":"/news/","limit":60},
+ {"name":"nl2","links":"https://www.hyundaimotorgroup.com/ko/","match":"/news/","limit":60}]

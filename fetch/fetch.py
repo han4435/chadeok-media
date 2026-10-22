@@ -87,7 +87,8 @@ def fetch_page(item):
         fn = f"{item['name']}_{len(files)+1:02d}.jpg"; im.save(os.path.join(out, fn), quality=90)
         files.append({"file": fn, "src": u, "size": f"{im.width}x{im.height}"})
         time.sleep(0.3)
-    return {"page": base, "candidates": len(urls), "files": files, "first_urls": urls[:15]}
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S|re.I); t = re.sub(r"<[^>]+>", " ", t); t = re.sub(r"\s+", " ", t)
+    return {"page": base, "candidates": len(urls), "files": files, "first_urls": urls[:15], "text_excerpt": t[:12000]}
 def fetch_links(item):
     """List article links (href + text) on a listing page, optionally filtered by regex."""
     html = get(item["links"]).decode("utf-8", "replace")

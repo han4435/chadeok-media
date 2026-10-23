@@ -1,2 +1,8 @@
-[{"name":"tc","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-the-all-new-tucson-15000-orders-first-day","max_files":8,"min_width":1200},
- {"name":"to","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-all-new-tucson-orders-open-2027","max_files":1,"min_width":1200}]
+[{"name":"tl","links":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-the-all-new-tucson-15000-orders-first-day","match":"hyundaimotorgroup.com/ko/(news|story|tv|journal)/","limit":80},
+ {"name":"nm","links":"https://www.hyundaimotorgroup.com/ko/news/newsMain","match":"/ko/news/","limit":40},
+ {"name":"i5n","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000109178","max_files":4,"min_width":1200},
+ {"name":"pal","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000174692","max_files":5,"min_width":1200},
+ {"name":"s_i6n","search":"Hyundai Ioniq 6 N","limit":20},
+ {"name":"s_mag","search":"Genesis GV60 Magma","limit":20},
+ {"name":"s_ev6gt","search":"Kia EV6 GT 2025","limit":20},
+ {"name":"s_pal","search":"Hyundai Palisade 2026","limit":20}]

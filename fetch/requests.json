@@ -1,5 +1,5 @@
-[{"name":"hsel","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000200712","max_files":15,"min_width":1000},
- {"name":"hpal","page":"https://www.hyundaimotorgroup.com/ko/story/the-all-new-palisade-virtue-of-flagship-suv","max_files":20,"min_width":1000},
- {"name":"htuc","page":"https://www.hyundaimotorgroup.com/ko/story/tucson-road-impressions","max_files":15,"min_width":1000},
- {"name":"s_sel26","search":"Kia Seltos 2026","limit":40,"min_width":1200},
- {"name":"s_pal26","search":"Hyundai Palisade 2026 side","limit":30,"min_width":1200}]
+[{"name":"selside","title":"Right look of Kia All-new Seltos during GIIAS 2026 in Bandung 20260913 162935.jpg","width":2400},
+ {"name":"seltrunk","title":"Trunk of Kia All-new Seltos during GIIAS 2026 in Bandung 20260913 195347.jpg","width":2400},
+ {"name":"s_palc","search":"Hyundai Palisade cargo","limit":30,"min_width":1000},
+ {"name":"s_palb","search":"Palisade LX3 interior","limit":30,"min_width":1000},
+ {"name":"s_palk","search":"Hyundai Palisade 2025 luggage","limit":20,"min_width":1000}]

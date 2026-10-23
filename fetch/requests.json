@@ -1,3 +1,4 @@
-[{"name":"s_pa1","search":"Palisade Calligraphy LX3 Black One-tone","limit":50,"min_width":1000},
- {"name":"s_pa2","search":"Palisade LX3 Dark Charcoal","limit":50,"min_width":1000},
- {"name":"s_pa3","search":"Palisade LX3 tailgate","limit":20,"min_width":800}]
+[{"name":"pa","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000167851","max_files":25,"min_width":900},
+ {"name":"pb","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000166712","max_files":25,"min_width":900},
+ {"name":"pc","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000166099","max_files":25,"min_width":900},
+ {"name":"pd","page":"https://www.hyundaimotorgroup.com/ko/story/CONT0000000000166796","max_files":25,"min_width":900}]

@@ -1,6 +1,5 @@
-[{"name":"s_sels","search":"Kia Seltos SP3 side","limit":25,"min_width":1400},
- {"name":"s_selt","search":"Kia Seltos SP3 trunk","limit":20,"min_width":1000},
- {"name":"s_pals","search":"Hyundai Palisade LX3 side","limit":25,"min_width":1400},
- {"name":"s_palt","search":"Hyundai Palisade LX3 trunk","limit":20,"min_width":1000},
- {"name":"s_tuct","search":"Hyundai Tucson 2027 trunk","limit":15,"min_width":1000},
- {"name":"s_tucs","search":"Hyundai Tucson NX5 side","limit":15,"min_width":1400}]
+[{"name":"hsel","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000200712","max_files":15,"min_width":1000},
+ {"name":"hpal","page":"https://www.hyundaimotorgroup.com/ko/story/the-all-new-palisade-virtue-of-flagship-suv","max_files":20,"min_width":1000},
+ {"name":"htuc","page":"https://www.hyundaimotorgroup.com/ko/story/tucson-road-impressions","max_files":15,"min_width":1000},
+ {"name":"s_sel26","search":"Kia Seltos 2026","limit":40,"min_width":1200},
+ {"name":"s_pal26","search":"Hyundai Palisade 2026 side","limit":30,"min_width":1200}]

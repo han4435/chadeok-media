@@ -1,4 +1,5 @@
-[{"name":"pa","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000167851","max_files":25,"min_width":900},
- {"name":"pb","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000166712","max_files":25,"min_width":900},
- {"name":"pc","page":"https://www.hyundaimotorgroup.com/ko/news/CONT0000000000166099","max_files":25,"min_width":900},
- {"name":"pd","page":"https://www.hyundaimotorgroup.com/ko/story/CONT0000000000166796","max_files":25,"min_width":900}]
+[{"name":"s_q1","search":"Hyundai Palisade trunk","limit":30,"min_width":800},
+ {"name":"s_q2","search":"Hyundai Palisade boot","limit":20,"min_width":800},
+ {"name":"s_q3","search":"2026 Hyundai Palisade cargo area","limit":20,"min_width":800},
+ {"name":"s_q4","search":"Hyundai Palisade XRT Pro rear open","limit":20,"min_width":800},
+ {"name":"s_q5","search":"Palisade LX3 Hybrid","limit":40,"min_width":800}]

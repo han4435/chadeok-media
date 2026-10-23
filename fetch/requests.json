@@ -1,5 +1,3 @@
-[{"name":"selside","title":"Right look of Kia All-new Seltos during GIIAS 2026 in Bandung 20260913 162935.jpg","width":2400},
- {"name":"seltrunk","title":"Trunk of Kia All-new Seltos during GIIAS 2026 in Bandung 20260913 195347.jpg","width":2400},
- {"name":"s_palc","search":"Hyundai Palisade cargo","limit":30,"min_width":1000},
- {"name":"s_palb","search":"Palisade LX3 interior","limit":30,"min_width":1000},
- {"name":"s_palk","search":"Hyundai Palisade 2025 luggage","limit":20,"min_width":1000}]
+[{"name":"s_pa1","search":"Palisade Calligraphy LX3 Black One-tone","limit":50,"min_width":1000},
+ {"name":"s_pa2","search":"Palisade LX3 Dark Charcoal","limit":50,"min_width":1000},
+ {"name":"s_pa3","search":"Palisade LX3 tailgate","limit":20,"min_width":800}]

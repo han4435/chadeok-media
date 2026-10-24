@@ -1,2 +1,4 @@
-[{"name":"fd","page":"https://www.hyundaimotorgroup.com/ko/story/the-all-new-palisade-first-drive","max_files":30,"min_width":900},
- {"name":"fe","page":"https://www.hyundaimotorgroup.com/ko/story/CONT0000000000168764","max_files":30,"min_width":900}]
+[{"name":"pbv","page":"https://www.hyundaimotorgroup.com/ko/news/kia-global-pbv-dealer-korea-invitation-event","max_files":8,"min_width":1000},
+ {"name":"s_lx2","search":"Hyundai Palisade LX2 facelift","limit":20,"min_width":1400},
+ {"name":"s_vn","search":"Hyundai Veloster N","limit":15,"min_width":1400},
+ {"name":"s_i30n","search":"Hyundai i30 N 2017","limit":15,"min_width":1400}]

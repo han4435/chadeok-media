@@ -1,1 +1,2 @@
-[{"name":"ev6","page":"https://www.hyundaimotorgroup.com/ko/tv/autumn-drives-feel-different-with-the-kia-ev6-gt","max_files":12,"min_width":1000}]
+[{"name":"s_tire","search":"tire sidewall markings","limit":25,"min_width":1200},
+ {"name":"s_dot","search":"tire DOT date code","limit":15,"min_width":1000}]

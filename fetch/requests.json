@@ -1,2 +1,3 @@
-[{"name":"s_tire","search":"tire sidewall markings","limit":25,"min_width":1200},
- {"name":"s_dot","search":"tire DOT date code","limit":15,"min_width":1000}]
+[{"name":"nm","links":"https://www.hyundaimotorgroup.com/ko/news/newsMain","match":"/ko/news/","limit":40},
+ {"name":"jm","links":"https://www.hyundaimotorgroup.com/ko/story/storyMain","match":"/ko/story/","limit":40},
+ {"name":"hm","links":"https://www.hyundaimotorgroup.com/ko/","match":"/ko/(news|story)/","limit":60}]

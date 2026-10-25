@@ -1,3 +1,1 @@
-[{"name":"nm","links":"https://www.hyundaimotorgroup.com/ko/news/newsMain","match":"/ko/news/","limit":40},
- {"name":"jm","links":"https://www.hyundaimotorgroup.com/ko/story/storyMain","match":"/ko/story/","limit":40},
- {"name":"hm","links":"https://www.hyundaimotorgroup.com/ko/","match":"/ko/(news|story)/","limit":60}]
+[{"name":"bali","page":"https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-bali-first-electric-bus-supply","max_files":6,"min_width":1000}]

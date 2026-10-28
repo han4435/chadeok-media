@@ -1,4 +1,6 @@
-[{"name":"pbtn","title":"Hyundai Palisade Calligraphy LX3 Black One-tone (19).jpg","width":2400},
- {"name":"i6np","title":"Hyundai ioniq 6 N N Performance Parts.jpg","width":2400},
- {"name":"i6np2","title":"Hyundai ioniq 6 N N Performance Parts 1.jpg","width":2400},
- {"name":"gbtn","title":"Genesis G90 RS4 SDS Obsidian Black Bordeaux Brown Two-tone (37).jpg","width":2400}]
+[{"name":"s_gauge","search":"Hyundai instrument cluster fuel gauge","min_width":1200,"limit":25},
+ {"name":"s_fuel","search":"Hyundai fuel filler door","min_width":1200,"limit":25},
+ {"name":"s_kiafuel","search":"Kia fuel gauge arrow","min_width":1000,"limit":20},
+ {"name":"s_station","search":"self service gas station South Korea","min_width":1400,"limit":20},
+ {"name":"s_engine","search":"Hyundai engine bay","min_width":1400,"limit":20},
+ {"name":"s_wiper","search":"Hyundai Kia windshield wiper","min_width":1400,"limit":20}]

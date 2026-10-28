@@ -1,6 +1,1 @@
-[{"name":"s_gauge","search":"Hyundai instrument cluster fuel gauge","min_width":1200,"limit":25},
- {"name":"s_fuel","search":"Hyundai fuel filler door","min_width":1200,"limit":25},
- {"name":"s_kiafuel","search":"Kia fuel gauge arrow","min_width":1000,"limit":20},
- {"name":"s_station","search":"self service gas station South Korea","min_width":1400,"limit":20},
- {"name":"s_engine","search":"Hyundai engine bay","min_width":1400,"limit":20},
- {"name":"s_wiper","search":"Hyundai Kia windshield wiper","min_width":1400,"limit":20}]
+[{"name": "st1", "title": "Starbucks Daejeon IC DT Branch & Hyundai Oilbank Daewon Self-service Gas Station 20240731.jpg", "width": 2400}, {"name": "st4", "title": "Seohaean Expwy Haengdamdo SA Gas Station(Seoul Dir) 2.jpg", "width": 2400}, {"name": "st5", "title": "Seoul-Yangyang Expwy Gapyeong SA Gas Station(Yangyang Dir).jpg", "width": 2400}, {"name": "en3", "title": "2023 Denver Auto Show Kia K5 GT engine bay.jpg", "width": 2400}, {"name": "en8", "title": "2023 Denver Auto Show Kia Niro EX Touring engine bay.jpg", "width": 2400}, {"name": "en9", "title": "2023 Denver Auto Show Kia Sportage Hybrid engine bay.jpg", "width": 2400}]

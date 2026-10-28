@@ -982,5 +982,71 @@
   "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@3b2d7989e106bc3ede694377241581613e20b247/posts/2026-10-28-21/reel.mp4",
   "thumb_offset": 1000,
   "files": []
+ },
+ {
+  "id": "2026-10-29-09",
+  "date": "2026-10-29",
+  "slot": "09",
+  "approved": "false",
+  "caption": "주유구 어느 쪽인지 헷갈릴 때, 3초 만에 아는 법 ⛽\n\n📍 계기판 주유기 아이콘 옆 작은 화살표(◀ ▶)를 보세요\n화살표 방향이 바로 주유구 위치예요!\n\n✅ 셀프 주유 전 정전기 방지 패드 먼저 터치\n✅ 주유 중엔 시동 끄기\n⚠️ 혼유했다면 시동 걸지 말고 보험사 긴급출동·견인부터\n\n주유구 화살표, 알고 있었다? 1 당연히 알았다 · 2 오늘 처음 알았다 👇\n렌터카 탈 때 써먹게 저장해두세요 📌\n\n참고: 위험물안전관리법·한국석유관리원 셀프주유 안내 종합 · 차종별로 다를 수 있음\n사진: LandAndTree / CC0, Jhcbs1019 / CC BY-SA 4.0, Corqe / CC0 / Wikimedia Commons · 그래픽: 차덕일보\n\n#주유 #셀프주유 #주유구 #자동차꿀팁 #초보운전 #렌터카 #차덕일보 #자동차상식",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-09/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-09/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-09/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-09/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-09/5.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-09/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "2026-10-29-12",
+  "date": "2026-10-29",
+  "slot": "12",
+  "approved": "false",
+  "caption": "겨울 오기 전 10분 셀프 점검 4 ❄️\n\n① 배터리 — 추위에 약해요. 시동이 무겁거나 3~4년 넘었다면 점검\n② 냉각수 — 엔진 식었을 때 보조탱크 MIN~MAX 확인\n③ 워셔액 — 여름용은 얼 수 있어요. 사계절·겨울용으로\n④ 타이어 — 기온 내려가면 공기압도 ↓ 운전석 문 안쪽 적정값으로\n\n겨울 준비, 어디까지 했어요? 1 다 했다 · 2 하나도 안 함 · 3 이제 하러 간다 👇\n\n※ 이상이 있으면 정비소에서 정확히 점검받으세요\n사진: Corqe / CC0 / Wikimedia Commons, 현대자동차그룹\n\n#겨울철차량관리 #자동차점검 #배터리 #워셔액 #타이어공기압 #자동차꿀팁 #차덕일보 #겨울운전",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-12/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-12/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-12/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-12/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-12/5.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-10-29-12/6.jpg"
+   }
+  ]
  }
 ]

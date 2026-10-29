@@ -1,1 +1,13 @@
-[{"name": "st1", "title": "Starbucks Daejeon IC DT Branch & Hyundai Oilbank Daewon Self-service Gas Station 20240731.jpg", "width": 2400}, {"name": "st4", "title": "Seohaean Expwy Haengdamdo SA Gas Station(Seoul Dir) 2.jpg", "width": 2400}, {"name": "st5", "title": "Seoul-Yangyang Expwy Gapyeong SA Gas Station(Yangyang Dir).jpg", "width": 2400}, {"name": "en3", "title": "2023 Denver Auto Show Kia K5 GT engine bay.jpg", "width": 2400}, {"name": "en8", "title": "2023 Denver Auto Show Kia Niro EX Touring engine bay.jpg", "width": 2400}, {"name": "en9", "title": "2023 Denver Auto Show Kia Sportage Hybrid engine bay.jpg", "width": 2400}]
+[{"name":"t_snow","search":"winter tire snow","limit":15},
+{"name":"t_tread","search":"tire tread depth","limit":15},
+{"name":"t_snowcar","search":"car snow road Korea","limit":15},
+{"name":"t_tirestack","search":"tires storage","limit":12},
+{"name":"r_grandeur","search":"Hyundai Grandeur GN7 rear","limit":10,"min_width":1200},
+{"name":"r_ioniq6","search":"Hyundai Ioniq 6 rear","limit":10,"min_width":1200},
+{"name":"r_ev3","search":"Kia EV3 rear","limit":10,"min_width":1200},
+{"name":"r_ev9","search":"Kia EV9 rear","limit":10,"min_width":1200},
+{"name":"r_k8","search":"Kia K8 rear","limit":10,"min_width":1200},
+{"name":"r_casper","search":"Hyundai Casper rear","limit":10,"min_width":1200},
+{"name":"r_sonata","search":"Hyundai Sonata 2024 rear","limit":10,"min_width":1200},
+{"name":"r_g80","search":"Genesis G80 rear","limit":10,"min_width":1200},
+{"name":"r_ioniq5","search":"Hyundai Ioniq 5 rear","limit":10,"min_width":1200}]

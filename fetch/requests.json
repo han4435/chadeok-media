@@ -1,4 +1,2 @@
-[{"name":"w_snow","title":"Snow tire compacting snow ahead of it.jpg","width":1600},
-{"name":"w_mark","title":"Winter tires with North American symbol.jpg","width":1600},
-{"name":"w_tracks","title":"Snow Tire Tracks in Duluth, Minnesota, winter (31131473024).jpg","width":1600},
-{"name":"w_tire","title":"Vredestein Wintrac Pro.jpg","width":1600}]
+[{"name":"s_sf","search":"Hyundai Santa Fe MX5","min_width":1600,"limit":20},
+ {"name":"s_kona","search":"Hyundai Kona SX2","min_width":1600,"limit":20}]

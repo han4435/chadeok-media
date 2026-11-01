@@ -1,0 +1,29 @@
+name: monthly-cleanup
+# Keeps the repository small (stays well inside GitHub's free limits):
+# removes post folders older than 14 days (already published on Instagram)
+# and squashes main history into one fresh commit so old images are not kept.
+on:
+  schedule:
+    - cron: "17 18 1 * *"   # 2nd of each month 03:17 KST
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: fetch-photos
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Remove old posts and squash history
+        run: |
+          cutoff=$(date -u -d "14 days ago" +%Y-%m-%d)
+          for d in posts/*/; do n=$(basename "$d"); [[ "${n:0:10}" < "$cutoff" ]] && rm -rf "$d"; done
+          python3 - <<PY
+          import json; c="$cutoff"
+          q=json.load(open("queue.json")); q=[e for e in q if e.get("date","9999")>=c]
+          json.dump(q,open("queue.json","w"),ensure_ascii=False,indent=1)
+          PY
+          rm -rf .git && git init -q -b main
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Monthly cleanup (posts since $cutoff)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" main

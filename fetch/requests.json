@@ -1,2 +1,2 @@
-[{"name":"hmg","links":"https://www.hyundaimotorgroup.com/ko/news","match":"/ko/(news|story)/","limit":60},
- {"name":"hmg2","links":"https://www.hyundaimotorgroup.com/ko/newsroom","match":"/ko/(news|story)/","limit":60}]
+[{"name":"s_nhs","search":"Namhansanseong autumn","min_width":1600,"limit":20},
+ {"name":"s_road","search":"autumn mountain road South Korea","min_width":1600,"limit":20}]

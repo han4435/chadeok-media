@@ -1348,5 +1348,38 @@
   "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@d6938b3daa764bb4fdd34fe60845e644ead63732/posts/2026-11-02-21/reel.mp4",
   "thumb_offset": 1000,
   "files": []
+ },
+ {
+  "id": "2026-11-03-09",
+  "date": "2026-11-03",
+  "slot": "09",
+  "approved": "false",
+  "caption": "내 차 썬팅, 불법일 수도? 🚗🕶️\n\n✅ 법적 기준 (가시광선 투과율)\n· 앞유리 70% 이상\n· 운전석·조수석 옆창 40% 이상\n· 뒷좌석 옆창·뒷유리는 기준 없음\n\n숫자가 작을수록 진해요 → 15%는 빛 85%를 막는다는 뜻\n단속되면 범칙금 2만 원 + 현장 제거 명령도 가능\n\n내 차 앞 옆창 썬팅 농도는? 1 40% 이상 · 2 30%대 · 3 15% 이하 · 4 몰라요 👇\n\n참고: 도로교통법 제49조·시행령 제28조, 한경비즈니스(2024.8) 보도 종합 · 일부 차량은 예외\n사진: 현대자동차그룹(번호판 블러) · 그래픽: 차덕일보\n\n#썬팅 #틴팅 #썬팅농도 #자동차튜닝 #화요일튜닝 #도로교통법 #차덕일보 #자동차상식",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-03-09/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-03-09/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-03-09/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-03-09/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-03-09/5.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-03-09/6.jpg"
+   }
+  ]
  }
 ]

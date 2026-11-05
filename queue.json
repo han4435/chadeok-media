@@ -1436,5 +1436,27 @@
     "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-04-09/6.jpg"
    }
   ]
+ },
+ {
+  "id": "2026-11-06-09",
+  "date": "2026-11-06",
+  "slot": "09",
+  "approved": "true",
+  "type": "REEL",
+  "caption": "계기판에 빨간불? 계속 달려도 될까? 🚨\n\n🔴 빨강 = 위험! 안전한 곳에 세우고 바로 확인 (브레이크·배터리·엔진오일 압력 등)\n🟡 노랑 = 곧 점검 (엔진 점검·타이어 공기압 등) · 깜빡이면 더 급할 수 있어요\n🟢 초록 = 작동 중 안내 (전조등·방향지시등 등 · 상향등은 파란색)\n\n신호등이랑 똑같아요! 당황할 때 꺼내보게 저장 📌\n초보 친구한테 공유해주세요 👇\n\n※ 정확한 의미는 차종별 취급설명서 '경고등' 항목 확인 · 그래픽은 예시\n\n#경고등 #계기판 #자동차꿀팁 #초보운전 #엔진경고등 #자동차상식 #차덕일보 #릴스",
+  "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@96cacb73fe1796c8278f86cc893c661edec82afc/posts/2026-11-06-09/reel.mp4",
+  "thumb_offset": 1000,
+  "files": []
+ },
+ {
+  "id": "2026-11-06-12",
+  "date": "2026-11-06",
+  "slot": "12",
+  "approved": "true",
+  "type": "REEL",
+  "caption": "처음으로 시속 100km 넘긴 차, 사실 전기차였다? ⚡\n\n1899년 프랑스 '라 자메 콩탕트' — 벨기에 레이서 카미유 제나치, 어뢰 모양 차체로 시속 105.9km\n1900년 무렵 미국 도로 위 차의 약 1/3이 전기차! 조용하고 냄새 없고 손으로 시동 걸 필요도 없었죠\n\n그런데 왜 사라졌을까? 🤔\n1908년 값싼 포드 모델 T, 1912년 전동 시동기 등장 (가솔린차 650달러 vs 전기 로드스터 1,750달러)\n→ 가솔린 시대가 열렸어요\n\n1990년대 다시 연구가 시작돼 지금은 다시 전기차 시대 🔌\n다음엔 어떤 '처음'이 궁금해요? 댓글로 👇\n\n※ 참고: 미국 에너지부(DOE) «The History of the Electric Car», 위키백과 La Jamais Contente · 그래픽은 복셀 연출\n\n#차덕일보 #차덕히스토리 #전기차 #자동차역사 #EV #3D애니메이션 #자동차상식 #릴스",
+  "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@96cacb73fe1796c8278f86cc893c661edec82afc/posts/2026-11-06-12/reel.mp4",
+  "thumb_offset": 1000,
+  "files": []
  }
 ]

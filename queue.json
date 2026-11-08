@@ -1480,5 +1480,34 @@
   "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@ec5d095d90aa567f2f9d8db62fe7efce2a92ef9c/posts/2026-11-08-21/reel.mp4",
   "thumb_offset": 1000,
   "files": []
+ },
+ {
+  "id": "2026-11-09-09",
+  "date": "2026-11-09",
+  "slot": "09",
+  "approved": "false",
+  "caption": "10월 판매 성적표, 기아가 국내 1위? 📊 (이번 주 자동차 뉴스)\n\n01 현대차 — 총 32만 9,773대 (6.3%↓)\n국내 4만 9,042대 (8.9%↓) · 해외 28만 731대 (5.9%↓) · 국내 대표 모델 그랜저 6,989대\n02 기아 — 총 29만 1,219대 (10.3%↑)\n국내 5만 1,007대 (27.5%↑) · 해외 23만 9,308대 (7.2%↑) · 스포티지 국내 7,708대·글로벌 5만 6,811대\n03 한 줄 정리 — 10월 국내 판매는 기아가 현대차보다 더 많았어요 (글로벌 총판매는 현대차가 더 많아요)\n\n요즘 제일 끌리는 차는? 1 그랜저 · 2 스포티지 · 3 팰리세이드 · 4 기타 👇\n\n출처: 현대자동차그룹 뉴스룸 (2026.11.2) 10월 판매 실적 · 기아 국내·해외는 특수차 제외\n사진: 현대자동차그룹 (번호판 블러)\n\n#자동차뉴스 #현대차 #기아 #판매실적 #그랜저 #스포티지 #차덕일보 #위클리뉴스",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-09-09/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-09-09/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-09-09/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-09-09/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-09-09/5.jpg"
+   }
+  ]
  }
 ]

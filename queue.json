@@ -1619,5 +1619,38 @@
   "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@0231216d378ff1051d149647fa0de4b2df9d277c/posts/2026-11-15-21/reel.mp4",
   "thumb_offset": 2700,
   "files": []
+ },
+ {
+  "id": "2026-11-15-09",
+  "date": "2026-11-15",
+  "slot": "09",
+  "approved": "false",
+  "caption": "기아 차 이름, 무슨 뜻일까? 🚙\n\n01 쏘렌토 → 이탈리아 휴양 도시 '소렌토'\n02 스포티지 → Sport + Portage(짐을 옮기는 일)\n03 셀토스 → 그리스 신화 헤라클레스의 아들 '켈토스' (C를 S로!)\n04 니로 → Near Zero + Hero\n🎁 보너스: 카니발 = '축제'\n\n이름 뜻, 몇 개 알고 있었나요? 번호로 댓글 남겨주세요 👇\n1 다 알았다 · 2 한두 개 · 3 하나도 몰랐다\n\n📷 Wikimedia Commons (CC BY-SA 4.0): Ganesh Mohan T · Alexander-93 · Alexander Migl · 번호판 블러 처리\n※ 기아 차명 유래 관련 보도 종합\n\n#기아 #쏘렌토 #스포티지 #셀토스 #니로 #차이름 #자동차상식 #주말상식 #차덕일보",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-15-09/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-15-09/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-15-09/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-15-09/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-15-09/5.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-15-09/6.jpg"
+   }
+  ]
  }
 ]

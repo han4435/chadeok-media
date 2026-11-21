@@ -1791,5 +1791,38 @@
   "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@ac38875800d052829c453eae0ff2bedf154491e9/posts/2026-11-21-22/reel.mp4",
   "thumb_offset": 2700,
   "files": []
+ },
+ {
+  "id": "2026-11-22-09",
+  "date": "2026-11-22",
+  "slot": "09",
+  "approved": "false",
+  "caption": "전 세계 차 색깔 1위는? 🎨🚗 (주말 상식)\n\n🥇 흰색 29%\n🥈 검정 23% (아시아에선 26%로 더 인기!)\n🥉 회색 22%\n4·5위 은색 7% · 파랑 6%\n\n내 차 색은 몇 위? 번호로 댓글 👇\n1 흰색 · 2 검정 · 3 회색 · 4 기타\n\n※ 출처: Axalta 2025 Global Automotive Color Popularity Report (2025.12 발표)\n팔로우하면 매일 18·21시 차덕이가 와요 🏁\n\n#자동차색상 #차색깔 #흰색차 #자동차상식 #주말상식 #차덕일보",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-22-09/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-22-09/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-22-09/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-22-09/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-22-09/5.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-22-09/6.jpg"
+   }
+  ]
  }
 ]

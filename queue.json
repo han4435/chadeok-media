@@ -1846,5 +1846,56 @@
   "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@504b721f353894532424cc896c16362855660ff2/posts/2026-11-22-21/reel.mp4",
   "thumb_offset": 2700,
   "files": []
+ },
+ {
+  "id": "2026-11-23-09",
+  "date": "2026-11-23",
+  "slot": "09",
+  "approved": "false",
+  "caption": "새 아반떼, 더 커졌다? 🚗 (WEEKLY NEWS · LA 오토쇼)\n\n01 신형 아반떼(북미명 엘란트라) 완전변경\n  · 길이 +85mm · 폭 +30mm · 휠베이스 +30mm\n  · 12.9인치 화면, 새 인포테인먼트 '플레오스 커넥트', AI 음성비서\n  · 가솔린 2.0 149마력 / 하이브리드 1.6 157마력 (북미 기준)\n02 제네시스 G80 하이브리드 세계 최초 공개\n  · 시스템 출력 352마력 · 자체 측정 연비 14.1km/L · 1회 주유 약 1,029km\n\n더 끌리는 건? 번호로 댓글 👇\n1 새 아반떼 · 2 G80 하이브리드\n\n※ 출처: 웹이코노미·테크월드 (2026.11.20) · 북미 공개 사양 기준, 국내 사양과 다를 수 있어요\n팔로우하면 매일 18·21시 차덕이가 와요 🏁\n\n#아반떼 #신형아반떼 #제네시스 #G80 #LA오토쇼 #자동차뉴스 #차덕일보",
+  "files": [
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-23-09/1.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-23-09/2.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-23-09/3.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-23-09/4.jpg"
+   },
+   {
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/han4435/chadeok-media/main/posts/2026-11-23-09/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-23-18",
+  "date": "2026-11-23",
+  "slot": "18",
+  "approved": "false",
+  "type": "REEL",
+  "caption": "계기판 경고등, 색깔만 봐도 안다? 🚨\n\n🔴 빨간색 → 지금 바로 안전한 곳에 정차 (예: 브레이크·냉각수 온도·배터리 충전)\n🟡 노란색 → 빨리 정비소 점검 (예: 엔진 체크·타이어 공기압)\n🟢 초록·🔵 파랑 → 기능이 켜졌다는 표시 (예: 전조등·크루즈 컨트롤)\n⚠️ 깜빡이면 더 급한 신호예요\n\n계기판 보고 당황한 친구한테 보내주기 👉\n팔로우하면 매일 18·21시 차덕이가 와요 🏁\n\n※ 일반 기준이며 정확한 의미는 내 차 취급설명서를 확인하세요\n\n#경고등 #계기판 #자동차꿀팁 #초보운전 #자동차상식 #차덕일보 #릴스",
+  "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@fee58220a5d5dbb8bc824cbda9dd553895e6f4f1/posts/2026-11-23-18/reel.mp4",
+  "thumb_offset": 2700,
+  "files": []
+ },
+ {
+  "id": "2026-11-23-21",
+  "date": "2026-11-23",
+  "slot": "21",
+  "approved": "false",
+  "type": "REEL",
+  "caption": "⏱️ 3초 퀴즈! 이 경고등 무슨 뜻일까? 🚗\n\n1️⃣ 타이어 공기압 부족\n2️⃣ 브레이크 고장\n\n정답은 영상에서 👀 몇 번 골랐는지 댓글로 남겨주세요 👇\n\n💡 겨울 아침엔 기온이 떨어져 이 경고등이 잘 켜져요. 계속 켜져 있으면 정비소 점검!\n\n팔로우하면 매일 18·21시 차덕이가 와요 🏁\n\n#차덕퀴즈 #자동차퀴즈 #경고등 #타이어공기압 #자동차상식 #차덕일보 #릴스",
+  "video_url": "https://cdn.jsdelivr.net/gh/han4435/chadeok-media@fee58220a5d5dbb8bc824cbda9dd553895e6f4f1/posts/2026-11-23-21/reel.mp4",
+  "thumb_offset": 600,
+  "files": []
  }
 ]
